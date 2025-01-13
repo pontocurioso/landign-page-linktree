@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #2a6447, #1cfc77 50%, #B5EAD7, #D5F5E3);
+    background-image: linear-gradient(to bottom, #ff4d40, #f84e3f 50%, #333333, #232323);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,27 +64,12 @@ body {
     transition: .2s;
 }
 
-.iconGithub, .iconInstagram, .iconTiktok {
+.iconYoutube, .iconTiktok {
     transition: .2s;
 }
 
-.iconGithub:hover, .iconInstagram:hover, .iconTiktok:hover {
-    font-size: 28px;
-}
-
-.iconGithub:hover {
-    color: #000;
-}
-
-.iconInstagram:hover {
-    background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.iconTiktok:hover {
-    text-shadow: -1px -1px 0 #69C9D0, 1px 1px 0 #F56040;
+.iconYoutube:hover, .iconTiktok:hover {
+    color: #232323;
 }
 
 /* Parte dos cards */
@@ -100,7 +85,7 @@ body {
 
 .card {
     border-radius: 100vh;
-    background-color: #3dba6f;
+    background-color: #232323;
     font-weight: 600;
     border-color: transparent;
     width: 700px;
@@ -139,7 +124,7 @@ body {
 }
 
 .copied {
-    background-color: #279754;
+    background-color: #972727be;
     color: #fff;
 }
 
